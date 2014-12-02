@@ -1,0 +1,100 @@
+body, {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: helvetica;
+}
+
+#map {
+  height: 100vh;
+  width: 50%;
+  float:left;
+}
+
+
+#sideBar {
+	width:50%;
+	float:right;
+	background:black;
+	height:100vh;
+	color: white;
+	padding:30px;
+	box-sizing: border-box;
+}
+
+#sideBar h1 {
+	margin-top: 0;
+	font-family: Helvetica;
+	color: gray;
+
+}	
+
+.background-image{
+	background-repeat: no-repeat;
+}
+
+
+.location{
+
+	background: rgba(50, 48, 47, 1);
+	padding: 20px;
+	margin-bottom: 29px;
+
+}
+
+.pratt{
+
+	background: rgba(50, 48, 47, 1);
+	padding: 20px;
+	margin-bottom: 29px;
+
+}
+
+
+
+.locationName{
+
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 7px;
+	font-family: helvetica;
+}
+
+.locationDescription{
+
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 7px;
+	font-family: helvetica;
+
+}
+
+
+.location.hover{
+	background: red;
+	
+}
+
+.image{
+
+	height: 250px;
+	background-size: cover;
+
+}
+
+
+
+h2{
+	color: gray;
+	font-size: 30px;
+	padding-top: 0px;
+	font-family: Helvetica;
+}
+
+p{
+
+	font-size: 20px;
+	padding-top: 0px;
+}
+
+
